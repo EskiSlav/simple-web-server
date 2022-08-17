@@ -1,5 +1,5 @@
 FROM python
-
+RUN apt-get install netcat net-tools
 WORKDIR /opt/simple-web-server
 COPY . .
 EXPOSE 8080
