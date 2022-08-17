@@ -4,4 +4,4 @@ WORKDIR /opt/simple-web-server
 COPY . .
 EXPOSE 8080
 
-CMD ["python", "server.py"]
+CMD ["python3", "server.py"]
